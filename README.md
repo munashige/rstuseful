@@ -1,5 +1,7 @@
 # Useful RST commands 
 
+## Linux
+
 Merge all rst into single file:
 
 ```
