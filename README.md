@@ -14,7 +14,7 @@ Strip all digits from all rst files:
 find . -type f -name "*.rst" -exec bash -c 'mv "$0" "$(dirname "$0")/$(basename "$0" | sed -E "s/^[0-9]+_//")"' {} \;
 ```
 
-Compress files via OPTIPNG
+Compress files via OPTIPNG:
 ```
 find . -type f -iname "*.PNG" -exec optipng -o7 {} +
 ```
