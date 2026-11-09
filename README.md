@@ -19,7 +19,7 @@ Compress files via OPTIPNG:
 find . -type f -iname "*.PNG" -exec optipng -o7 {} +
 ```
 
-Convert docx to rst via:
+Convert docx to rst via RSTFROMDOCX:
 
 ```bash
 rstfromdocx example.docx
